@@ -22,7 +22,7 @@ export const AxisLeft = ({ yScale, pixelsPerTick, width, lineColor, textColor }:
       value,
       yOffset: yScale(value),
     }));
-  }, [yScale]);
+  }, [yScale, pixelsPerTick, range]);
 
   return (
     <>

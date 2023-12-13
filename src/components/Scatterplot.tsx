@@ -75,7 +75,7 @@ export const Scatterplot = ({ width, height, xlims, ylims, data, selected, setSe
         />
       );
     }))
-  }, [data])
+  }, [data, xlims, ylims, setSelected, xScale, yScale])
   
   const selectedShape = selected ? (
     <circle
