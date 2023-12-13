@@ -100,6 +100,12 @@ export default function Home() {
                   filterOption={createFilter({ ignoreAccents: false })}
           />
       </div>
+      {/* A Footer with my details */}
+      <footer className="flex justify-center my-8">
+        <p className="text-sm text-center">
+          Made by Alex Brown, mostly out of boredom. Say hi: <a href="https://twitter.com/alexpybrown">@alexpybrown</a> 
+        </p>
+      </footer>
     </main>
   )
 }
